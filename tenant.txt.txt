@@ -1,0 +1,4 @@
+insert into coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id)
+values  ('a0d914ba-9d59-4405-beea-170a0f244ab8', '1202', 'RCM', 'NextGen Oncology', 'oncospark', 'nextgen-oncology', '08287fb9-5725-49b1-ae33-9c6e4af66e82'),
+        ('65ab13ff-9987-4b8a-8cce-ab50c7846d8e', '1202', 'RCM', 'NextGen Oncology', 'oncospark', 'nextgen-oncology', '76222fab-0dcd-4784-8ad3-da889b3fab8c');
+
