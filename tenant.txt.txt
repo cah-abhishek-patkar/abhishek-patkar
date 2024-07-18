@@ -1,2 +1,5 @@
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('0baac797-5bca-40b7-9520-fac2810506ea', '1207', 'RCM', 'Midwest Vision Partners - Spectrum Eye', 'mvp', 'mvp-spectrum', '7751585d-3e45-49bc-a0ca-3b8cf4e697c9');
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('89d15369-e31d-478f-9a12-3b6800b21212', '1204', 'RCM', 'Midwest Vision Partners - Retina Consultants of Michigan', 'mvp', 'mvp-rcom', '4be9f737-98d9-459b-b57c-ce2c5cdd7f75');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES 
+('53d37181-78c8-4083-82bb-ed0b2718aabf', '1207', 'RCM', 'Midwest Vision Partners - Spectrum Eye', 'mvp', 'mvp-spectrum', '7751585d-3e45-49bc-a0ca-3b8cf4e697c9'),
+('cb229c29-a20a-408d-8a37-fb37f94ba1e6', '1204', 'RCM', 'Midwest Vision Partners - Retina Consultants of Michigan', 'mvp', 'mvp-rcom', '4be9f737-98d9-459b-b57c-ce2c5cdd7f75'),
+('f2ed2e60-d862-4041-bce7-e580f9cca432', '1205', 'RCM', 'Midwest Vision Partners - Specialty Eye Institute', 'mvp', 'mvp-sei', 'dd5a7608-aef9-4f97-8e46-65d4d2582ca4'),
+('7c5596b6-59be-4c77-983e-fa2849a673b3', '1206', 'RCM', 'Midwest Vision Partners - Cataract and Eye Consultants of MI', 'mvp', 'mvp-cecom', '6f82b709-cb8e-4da9-8305-7e058e3f492f');
