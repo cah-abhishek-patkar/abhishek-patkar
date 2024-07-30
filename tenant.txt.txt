@@ -10,3 +10,31 @@ INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer
 ('1207', 'Midwest Vision Partners - Spectrum Eye');
 ('1208', 'Midwest Vision Partners - NE Ohio Surgeons');
 ('1209', 'Midwest Vision Partners - GSG');
+
+
+external_id
+anwi-nv
+curemd-cbsc-ca
+ccbd-ca
+curemd-ccbd-ca
+cac-oh
+coh-oh
+emka-pa
+homg-ca
+highland-retina
+curemd-hahc-il
+mvp-cecom
+mvp-gsg
+mvp-mei
+mvp-rcom
+mvp-spectrum
+nmoh-nm
+ngonc-ca
+curemd-nhcc-tx
+nka-ky
+nvision_advancedmd
+oahc-nj
+unlimited-ocpa-tx
+psmg-il
+rcpi-ny
+tcsp-tn
