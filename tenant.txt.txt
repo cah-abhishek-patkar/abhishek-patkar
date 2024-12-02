@@ -1,6 +1,5 @@
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_type, customer_id, customer_description, source_system, external_id, tenant_id) VALUES ('f61834f0-7aef-4f84-87f5-97320d70ba00', 'RCM', '1208', 'Midwest Vision Partners - NE Ohio Surgeons', 'mvp', 'mvp-neoes', '355eaaef-da18-4423-8b96-02c57e5d3c23');
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_type, customer_id, customer_description, source_system, external_id, tenant_id) VALUES ('a04fe83f-2889-4bfd-a710-7c3d4496b7f8', 'RCM', '1209', 'Midwest Vision Partners - GSG', 'mvp', 'mvp-gsg', '40f96ffc-531a-4197-9cb6-459fa67be87e');
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('f99a8651-ff16-4a88-9ccd-39798880eae5', '1210', 'RCM', 'Midwest Vision Partners - Michigan Eye Institute', 'mvp', 'mvp-mei', 'be58df81-25e1-4f72-930a-cd0a26b3b50a');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('68191375-d630-4136-85e4-e3e83c504a9c', '1190', 'RCM', 'Mary Washington Healthcare', 'atrix', 'atrix_marywashington', '6c21e265-d97e-4584-982b-42d66c6b9b14');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('57f688b5-eec6-4c39-bc81-18253d2d07bf', '1190', 'RCM', 'Mary Washington Healthcare', 'atrix', 'atrix_marywashington', 'aecefd6f-da04-4dd1-bc21-1465232326ad');
 
 
 
