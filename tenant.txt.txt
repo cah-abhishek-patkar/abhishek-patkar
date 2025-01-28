@@ -1,55 +1,5 @@
 insert into coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id)
-values  ('eb8d1570-da49-421a-b7a0-2db3b4a3893b', '1309', 'RCM', 'Hills and Dales', 'atrix', 'atrix_hdhlth', '2dde1aaa-bd05-4a16-be74-181ded6412e4'),
-        ('fea36845-f555-451a-bf2b-1ee28ee4c76f', '1309', 'RCM', 'Hills and Dales', 'atrix', 'atrix_hdhlth', '85c627fc-388b-467e-b71e-24a35388c37c'),
-        ('3a628142-42e1-45dd-9e3b-397cd85cdf68', '1083', 'RCM', 'Charles Retina', 'epic', 'charles-retina', '7b708e61-549f-433f-a8a9-eced9d405b5c'),
-        ('0dabf207-cd8e-45c5-bbc3-08e91a91adca', '1083', 'RCM', 'Charles Retina', 'epic', 'charles-retina', 'e55aec2d-09d5-4a6a-8846-415a657367b9'),
-        ('eada0b3b-d2dc-4cbb-b18c-204362389e76', '1211', 'RCM', 'Midwest Vision Partners - Rosenbaum Eye & Laser Center', 'mvp', 'mvp-relc', '6f391a98-ec1e-43dd-a074-72ff07daa055'),
-        ('d8e04a09-6632-4f00-bafd-63c7b735a4d3', '1211', 'RCM', 'Midwest Vision Partners - Rosenbaum Eye & Laser Center', 'mvp', 'mvp-relc', 'cc3d9edc-c58f-49ed-b6ba-378b932c0b26'),
-        ('5ec87dd8-9b0d-44d4-84f2-1bb2d8d142a8', '1207', 'RCM', 'Midwest Vision Partners - Spectrum Eye', 'mvp', 'mvp-spectrum', 'f8a9823d-7773-4841-b56c-bcd46a289fd9'),
-        ('636abc25-abdc-40ba-9873-d5894c8d878d', '1206', 'RCM', 'Midwest Vision Partners - Cataract and Eye Consultants of MI', 'mvp', 'mvp-cecom', 'b6672e8e-6614-49dc-aec8-690ed43fb2ff'),
-        ('06fe0657-3df9-40c3-9ff1-d6eb87675c35', '1208', 'RCM', 'Midwest Vision Partners -  NE Ohio Surgeons', 'mvp', 'mvp-neoes', '51d08798-c0c1-44a7-a782-b1e26e9a3349'),
-        ('f18eb831-0f5b-4e97-aa81-9440c83de40c', '1209', 'RCM', 'Midwest Vision Partners - GSG', 'mvp', 'mvp-gsg', '6c5ed43e-944e-4b3e-95e0-59fa9e1f27b2'),
-        ('8babc1da-c0d7-4a87-9253-a549c0bd1e0d', '1204', 'RCM', 'Midwest Vision Partners - Retina Consultants of Michigan', 'mvp', 'mvp-rcom', '72ef40b2-5ba7-49f1-9a39-5cb99f22265e'),
-        ('dd9d4b32-ee4b-4141-ae28-b8b56dc6931b', '1210', 'RCM', 'Midwest Vision Partners - Michigan Eye Institute', 'mvp', 'mvp-mei', '4c872c6b-5f6a-4e71-8cd5-c97f7ac338f0'),
-        ('4dfd67df-c14a-43dc-a2aa-0686420c1dc0', '1315', 'RCM', 'Jefferson Healthcare', 'atrix', 'atrix_jefferson', 'df357904-c5c7-4c68-afec-69b6910d63c8'),
-        ('f151920c-788e-4490-a81c-f5ff1ddd2760', '1315', 'RCM', 'Jefferson Healthcare', 'atrix', 'atrix_jefferson', '471af6d4-5d36-473f-bba8-ca6317ced4bc');
-
-
-external_id
-anwi-nv
-curemd-cbsc-ca
-ccbd-ca
-curemd-ccbd-ca
-cac-oh
-coh-oh
-emka-pa
-homg-ca
-highland-retina
-curemd-hahc-il
-mvp-cecom
-mvp-gsg
-mvp-mei
-mvp-rcom
-mvp-spectrum
-nmoh-nm
-ngonc-ca
-curemd-nhcc-tx
-nka-ky
-nvision_advancedmd
-oahc-nj
-unlimited-ocpa-tx
-psmg-il
-rcpi-ny
-tcsp-tn
-
-
-'genius-docs', 'ccbd-ca'
-'genius-docs', 'ccbd-ca'
-'curemd', 'curemd-hahc-il'
-'curemd', 'homg-ca'
-'unlimited', 'oahc-nj'
-'unlimited', 'oahc-nj'
-'unlimited', 'oahc-nj'
-'unlimited', 'tcsp-tn'
-'unlimited', 'tcsp-tn'
-'unlimited', 'tcsp-tn'
+values  ('8b594bf1-3755-4de0-95b1-cb1a4b573646', '1317', 'RCM', 'Infinity Cancer Care', 'curemd', 'icc-wa', '5ad1b1f0-eec9-465b-aaee-a9463c49425c'),
+        ('d6c94047-b5bc-415f-83f8-aa895cad1523', '828', 'RCM', 'Beverly Hills Cancer Center', 'unlimited', 'bhls-ca', '56eab8b0-f063-44d4-a150-36bbdd5a6cb5'),
+        ('0a1ce3c4-7522-4ea6-915d-06174da1da2d', '828', 'RCM', 'Beverly Hills Cancer Center', 'unlimited', 'bhls-ca', '0697f38b-0f85-4ba6-90a1-8b644339adbd'),
+        ('37322526-3c08-4376-ac96-5e894ff0d87b', '1317', 'RCM', 'Infinity Cancer Care', 'curemd', 'icc-wa', '558437b1-c2ff-4005-81c8-feb00c268857');
