@@ -1,5 +1,2 @@
-insert into coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id)
-values  ('8b594bf1-3755-4de0-95b1-cb1a4b573646', '1317', 'RCM', 'Infinity Cancer Care', 'curemd', 'icc-wa', '5ad1b1f0-eec9-465b-aaee-a9463c49425c'),
-        ('d6c94047-b5bc-415f-83f8-aa895cad1523', '828', 'RCM', 'Beverly Hills Cancer Center', 'unlimited', 'bhls-ca', '56eab8b0-f063-44d4-a150-36bbdd5a6cb5'),
-        ('0a1ce3c4-7522-4ea6-915d-06174da1da2d', '828', 'RCM', 'Beverly Hills Cancer Center', 'unlimited', 'bhls-ca', '0697f38b-0f85-4ba6-90a1-8b644339adbd'),
-        ('37322526-3c08-4376-ac96-5e894ff0d87b', '1317', 'RCM', 'Infinity Cancer Care', 'curemd', 'icc-wa', '558437b1-c2ff-4005-81c8-feb00c268857');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES 
+('91c5f581-88a5-4b3d-9978-5933ecea6a7d', '1314', 'RCM', 'Mann Eye Institute', 'modmed', 'mei-tx', '356f0ff2-3f62-46e5-9028-050c8051614a');
