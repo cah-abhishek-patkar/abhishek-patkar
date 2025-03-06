@@ -1,2 +1,2 @@
-INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES 
-('91c5f581-88a5-4b3d-9978-5933ecea6a7d', '1314', 'RCM', 'Mann Eye Institute', 'modmed', 'mei-tx', '356f0ff2-3f62-46e5-9028-050c8051614a');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('30802929-9124-44b4-8a00-72546453a287', '1318', 'RCM', 'Washington Eye Physicians and Surgeons', 'athena', 'washington-eye', 'b5fe221e-6506-4c23-a447-63ee28027384');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('fcd6e07f-05d2-4b55-bbe8-d2e436806ec4', '1318', 'RCM', 'Washington Eye Physicians and Surgeons', 'athena', 'washington-eye', '08437087-b69d-4a0b-b16c-b6c0891ef8aa');
