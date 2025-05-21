@@ -1,3 +1,5 @@
 INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('c8847177-82ae-451d-9490-1127b26a2fc0', '390', 'RCM', 'Cancer Care Specialists of Illinois', 'epic', 'epic-ccs-il', '9266dab4-2835-41be-84da-61d1ab5e2f66');
 INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('5e795f95-45bf-459f-8546-91fb8d25b359', '390', 'RCM', 'Cancer Care Specialists of Illinois', 'epic', 'epic-ccs-il', 'd5923c9f-2078-4675-a7f8-16f97759d822');
 
+epic-ccs-il :'9c93408b-e6bb-4638-b0ec-0868105333b3'
+    ccs-il : 'b2204a20-f8a5-4023-ad11-0acf51f2fb0a'
