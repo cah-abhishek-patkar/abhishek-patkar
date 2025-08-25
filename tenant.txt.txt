@@ -1,13 +1,3 @@
 
---BEGIN Hitrust MFT Infinity Cancer Care (ICC)
-
-INSERT INTO file_receiver.file_source (id, name, endpoint_id, folder, file_type, source_system, external_id, ignored_directory, source_type, batch_size, delete_source_file, include_subfolders, migrated, external_id_required, create_timestamp, alert_seconds)
-VALUES ('6f7cb45e-50d6-4735-a8aa-a3378157e8f7', '837 icc-wa Claim Edi', '1b02047d-e541-4771-9256-68f4f1f46aef',
-        '{MFT_SPDT_SFTP_PREFIX}/icc-wa-curemd-claims/', 'claim_edi', 'curemd', 'icc-wa',
-        '{MFT_SPDT_SFTP_PREFIX}/icc-wa-curemd-claims/', 'sftp', 500, true, false, false, true,
-        '2025-07-21 00:00:00.000000', {EVERY_EIGHT_DAYS_ALERT_SECONDS});
-
-insert into scheduler.scheduler_configuration (id, task_id, cron_expression, topic_to_notify, active)
-values ('e43958fc-9219-4312-8ef7-933e3a28540a', '6f7cb45e-50d6-4735-a8aa-a3378157e8f7', '{CRON_EVERY_HOUR}', 'file_receiver_normal', true);
-
---END Hitrust MFT Infinity Cancer Care (ICC)
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('fe7dbb07-b617-4030-8442-589b859eae4c', '1312', 'RCM', 'Winona Health', 'atrix', 'atrix_winonahealth', '9e10b906-85fc-48f7-a441-c35031b20cc3');
+INSERT INTO coordinator_exporter.customer_tenant_xref (id, customer_id, customer_type, customer_description, source_system, external_id, tenant_id) VALUES ('3627bb74-aefb-42b7-9026-45bba7ecdc8d', '1312', 'RCM', 'Winona Health', 'atrix', 'atrix_winonahealth', 'b3f23c6f-7456-41a4-a40e-6cfd840aeb92');
